@@ -12,19 +12,148 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-[#262736]">
-    <div id="page" class="flex flex-col items-center justify-center">
-        <div id="title" class="text-white text-5xl"> HOMELAB JOURNAL</div>
-        <div id="timeline" class="hscroll w-full scrollbar-hide overflow-x-auto whitespace-nowrap p-4 border">
+<body class="bg-[#353A41]">
+    <div id="page" class="flex flex-col">
+        <div id="title" class="text-white text-5xl text-center p-3">
+            HOMELAB <div class="text-[#ac94f4]">JOURNAL</div>
+        </div>
+        <div id="timeline" class="flex relative flex-col md:flex-row gap-20 p-8 ">
+            <div class="flex flex-col md:flex-row gap-16 
+            before:absolute before:left-1/2 before:z-0 before:top-0
+            before:h-full before:w-[2px]
+            before:bg-gray-400">
+                <div class="bg-[#293036] focus-item rounded-lg z-10 h-48 p-1 flex flex-row shadow-md shadow-[#ac94f4]">
+                    <img src="assets/before.jpg" alt="1" class="rounded-lg basis-1/3 h-full ">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute right-4 opacity-25">1</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            Previous setup with single node
+                        </div>
+                    </div>
+                </div>
 
-            <div class="inline-block w-[50rem] h-32 bg-red-400 mr-4"></div>
-            <div class="inline-block w-[50rem] h-32 bg-blue-400 mr-4"></div>
-            <div class="inline-block w-[50rem] h-32 bg-green-400 mr-4"></div>
-            <div class="inline-block w-[50rem] h-32 bg-yellow-400 mr-4"></div>
-            <div class="inline-block w-[50rem] h-32 bg-purple-400 mr-4"></div>
+                <div class="bg-[#293036] rounded-lg z-10 p-1 flex flex-col shadow-md shadow-[#ac94f4]">
+                    <img src="assets/planning.jpg" alt="1" class="rounded-lg ">
+                    <div class="subtext flex flex-row ml-5 gap-2 relative ">
+                        <div class="basis-1/4"></div>
+                        <div class="text-[6rem] text-[#ac94f4] absolute  left-1  opacity-25">2</div>
+                        <div class="text-xl text-white uppercase basis-2/3 my-10 text-center">
+                            Complete Diagram of the setup
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#293036] rounded-lg z-10 p-1 flex flex-col shadow-md shadow-[#ac94f4]">
+                    <img src="assets/arrived.jpg" alt="1" class="rounded-lg ">
+                    <div class="subtext flex flex-row ml-5 gap-2 relative ">
+                        <div class="text-xl text-white uppercase my-10 text-center">
+                            Basic cabling and <br> equipment arrived
+                        </div>
+                        <div class="text-[6rem] text-[#ac94f4] absolute right-10  opacity-25">3</div>
+
+                    </div>
+                </div>
+
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute left-1  opacity-25">4</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            Wiring throughout the house
+                        </div>
+                    </div>
+                    <img src="assets/wiring.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                </div>
+
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <img src="assets/wifiAccess.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute right-4  opacity-25">5</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            Access Point finally arrived
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute left-1  opacity-25">6</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            All equipment wired up and documented
+                        </div>
+                    </div>
+                    <img src="assets/wireSetup.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                </div>
+
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <img src="assets/hardwareSetup.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute right-4  opacity-25">7</div>
+                        <div class="text-2xl w-4/5 text-white uppercase mt-14 text-center">
+                            EVERYTHING LIGHTS UP !!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute left-1  opacity-25">8</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            VLAN and Firewalls setup completed
+                        </div>
+                    </div>
+                    <img src="assets/vlanSetup.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                </div>
+
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <img src="assets/printer.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[8rem] text-[#ac94f4] absolute right-4  opacity-25">9</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            Printer securely connected
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#293036] rounded-lg z-10 p-1 flex flex-col shadow-md shadow-[#ac94f4]">
+                    <img src="assets/osInstalled.jpg" alt="1" class="rounded-lg ">
+                    <div class="subtext flex flex-row ml-5 gap-2 relative ">
+                        <div class="basis-1/4"></div>
+                        <div class="text-[6rem] text-[#ac94f4] absolute  left-1  opacity-25">10</div>
+                        <div class="text-xl text-white uppercase basis-2/3 my-10 text-center">
+                            Nodes provisioned and working properly
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <img src="assets/tailscale.jpg" alt="1" class="rounded-lg basis-1/2 h-full ">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[7rem] text-[#ac94f4] absolute right-1 opacity-25">11</div>
+                        <div class="text-xl w-4/5 text-white uppercase mt-10 text-center">
+                            Tailscale installed on all nodes
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#293036] rounded-lg h-48 p-1 flex z-10 flex-row shadow-md shadow-[#ac94f4]">
+                    <div class="subtext flex flex-col ml-5 gap-2 relative basis-2/3">
+                        <div class="text-[6rem] text-[#ac94f4] absolute left-1  opacity-25">12</div>
+                        <div class="text-2xl w-4/5 text-white uppercase mt-10 text-center">
+                            tailscale cafe test completed
+                        </div>
+                    </div>
+                    <img src="assets/cafeTest.jpg" alt="1" class="rounded-lg h-full ">
+                </div>
+                <div class="bg-[#293036] rounded-lg z-10 p-1 flex flex-col shadow-md shadow-[#ac94f4]">
+                    <img src="assets/traefik.jpg" alt="1" class="rounded-lg ">
+                    <div class="subtext flex flex-row ml-5 gap-2 relative ">
+                        <div class="basis-1/4"></div>
+                        <div class="text-[6rem] text-[#ac94f4] absolute  left-1  opacity-25">13</div>
+                        <div class="text-xl text-white uppercase basis-2/3 my-10 text-center">
+                            Reverse proxy with SSL termination
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-
     </div>
 </body>
 <script </html>
